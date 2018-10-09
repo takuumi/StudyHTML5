@@ -106,6 +106,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .hot-topic .content{
+    position:relative;
     float: left;
     width: 50%;
     height: 100%;
@@ -141,6 +142,20 @@ a:link, a:visited, a:hover, a:active {
     line-height:1;
 }
 
+.heading{
+    padding: 10px 12px;
+    background: url('../images/bg-slash.gif');
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+
+.scroll-list{
+    max-height:220px;
+    overflow-y:auto;
+    margin-bottom:30px;
+    list-style-type: none;
+}
+
 
 .sidemenu {
     float: right;
@@ -151,6 +166,7 @@ a:link, a:visited, a:hover, a:active {
     width: 100%;
 }
 
+/*
 .border {
     border: 2px solid blue;
     margin-bottom: 20px;
@@ -175,12 +191,13 @@ a:link, a:visited, a:hover, a:active {
     height: 30px;
     background-color: green;
 }
+*/
 
 
-.clearfix::after{
+.clearfix::after {
     content: '';
-    display:block;
-    clear:both;
+    display: block;
+    clear: both;
 }
 
 
