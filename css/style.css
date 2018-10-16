@@ -312,12 +312,10 @@ a:link, a:visited, a:hover, a:active {
         margin: 0 10px;
         border: 1px solid #ccc;
         vertical-align: 20px;
-        text-align: center;
+        text-align:  center;
         font-weight: bold;
         line-height: 16px;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
+        border-radius:9px;
     }
 
         .ranking .order::before {
@@ -325,9 +323,6 @@ a:link, a:visited, a:hover, a:active {
             counter-increment: ranking;
             display: inline-block;
             font-size: 1.0rem;
-            -webkit-transform: rotate(-45deg);
-            -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
         }
 
 
